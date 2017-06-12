@@ -1,0 +1,71 @@
+
+.card{
+    width:300px;
+    height:140px;
+    border:2px solid #000;
+    position:absolute;
+    background-color:#fff;
+    z-index: 9999;
+}
+#cardUp:before,#cardUp:after{
+    content:"";
+    display:block;
+    border-width:20px;
+    position:absolute;
+    bottom:-40px;
+    left:75px;
+    border-style:solid dashed dashed;
+    border-color:#000 transparent transparent;
+    font-size:0;
+    line-height:0;
+}
+#cardUp:after{
+    bottom:-37px;
+   border-color:#FFF transparent transparent;
+}
+
+#cardDown:before,#cardDown:after{
+    content:"";
+    display:block;
+    border-width:20px;
+    position:absolute;
+    bottom:140px;
+    left:75px;
+    border-style:solid dashed dashed;
+    border-color: transparent transparent #000;
+    font-size:0;
+    line-height:0;
+}
+#cardDown:after{
+    bottom:137px;
+   border-color: transparent transparent #fff;
+}
+.cname {
+    display: inline-block;
+    padding: 15px;
+    padding-right: 70px;
+    font-weight: bold;
+    font-size: 20px;
+    vertical-align: text-bottom;
+}
+.info {
+    display: block;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    vertical-align: text-bottom;
+}
+.weibo {
+    display: inline-block;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    vertical-align: text-bottom;
+}
+.follow, .follower{
+    display: inline-block;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    vertical-align: text-bottom;
+}

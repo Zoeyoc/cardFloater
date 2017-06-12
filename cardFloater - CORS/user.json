@@ -1,0 +1,32 @@
+[
+	{
+	    "success": true,
+	    "data": {
+		        "uid": "1",
+		        "nickname": "人民网",
+		        "bio": "Hello World!",
+		        "following": 222,
+		        "followers": 111
+    	}
+	},
+    {
+	    "success": true,
+	    "data": {
+		        "uid": "2",
+		        "nickname": "百度糯米",
+		        "bio": "Hello World!",
+		        "following": 222,
+		        "followers": 111
+    	}
+	},
+	{
+	    "success": true,
+	    "data": {
+		        "uid": "3",
+		        "nickname": "百度地图",
+		        "bio": "Hello World!",
+		        "following": 222,
+		        "followers": 111
+    	}
+	}
+]
